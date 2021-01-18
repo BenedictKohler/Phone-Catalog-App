@@ -37,7 +37,7 @@ describe('POST endpoint: adds a new phone to the catalog', () => {
 // PUT: Updates an existing phone in the catalog and returns 200 if successful otherwise 500
 describe('PUT endpoint: updates an existing phone in the catalog', () => {
     it('updates an existing phone in the catalog', async done => {
-        const res = await request.put('/phone/25')
+        const res = await request.put('/phone/27')
             .send({
                 name: "Samsung S4",
                 color: "White",
@@ -57,7 +57,7 @@ describe('PUT endpoint: updates an existing phone in the catalog', () => {
 // DELETE: Deletes a phone from the catalog and returns 200 if successful otherwise 500
 describe('DELETE endpoint: deletes a phone from the catalog', () => {
     it('deletes a phone from the catalog', async done => {
-        const res = await request.delete('/phone/25')
+        const res = await request.delete('/phone/27')
         expect(res.status).toBe(200)
         done()
     })

@@ -2,7 +2,7 @@
 
 var admin = require("firebase-admin");
 
-const serviceAccount = require('./phone-catalog-6a6d9-firebase-adminsdk-yhfbn-8577952fe5.json');
+const serviceAccount = require('./phone-catalog-local-firebase-adminsdk-qobo1-a7c97a98ac.json');
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)

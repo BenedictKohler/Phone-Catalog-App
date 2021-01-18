@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Backend",
+    "\\Backend\\server",
+    "\\Backend\\server\\images",
+    "\\Frontend",
     "\\Frontend\\phone-catalog",
     "\\Frontend\\phone-catalog\\src",
-    "\\Frontend\\phone-catalog\\src\\components",
     "\\Frontend\\phone-catalog\\src\\services"
   ],
-  "SelectedNode": "\\Backend\\PhoneCatalogController.js",
+  "SelectedNode": "\\Backend\\server\\images\\1610994188918.jpg",
   "PreviewInSolutionExplorer": false
 }
