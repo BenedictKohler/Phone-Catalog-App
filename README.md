@@ -1,7 +1,7 @@
 # Phone Catalog App
 
 ## Description:
-A web application that allows users to view, filter, and search a catalog of phones. Users are also able to add new phones to the collection as well as update and delete existing phones in the catalog. The app can be viewed on Heroku by following this link https://phone-catalog-frontend.herokuapp.com/ (Add phone and update phone don't render images correctly on Heroku but the these features will work when run on your PC). Follow the instructions below to view the app on your PC.
+A web application that allows users to view, filter, and search a catalog of phones. Users are also able to add new phones to the collection as well as update and delete existing phones in the catalog. The app can be viewed on Heroku by following this link https://phone-catalog-frontend.herokuapp.com/ (Add phone and update phone don't render images correctly on Heroku but these features will work when run on your PC). Follow the instructions below to view the app on your PC.
 
 ## Technologies:
 The app uses React on the Frontend combined with a NodeJS REST API which communicates with a Cloud Firestore Database for persisting each phones information.
